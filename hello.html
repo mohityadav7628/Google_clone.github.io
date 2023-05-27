@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Google-style Search Bar</title>
+  <style>
+    /* CSS styling for the search bar */
+    .search-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 100px;
+    }
+
+    .search-input {
+      width: 500px;
+      padding: 10px;
+      font-size: 16px;
+      border: none;
+      border-radius: 20px 0 0 20px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .search-button {
+      padding: 10px 20px;
+      font-size: 16px;
+      border: none;
+      background-color: #4285f4;
+      color: white;
+      border-radius: 0 20px 20px 0;
+      cursor: pointer;
+    }
+
+    /* Optional: Media query for responsiveness */
+    @media (max-width: 600px) {
+      .search-container {
+        flex-direction: column;
+      }
+      .search-input {
+        width: 100%;
+        border-radius: 20px;
+      }
+      .search-button {
+        border-radius: 20px;
+        margin-top: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="search-container">
+    <input type="text" class="search-input" placeholder="Search...">
+    <button type="submit" class="search-button">Search</button>
+  </div>
+</body>
+</html>

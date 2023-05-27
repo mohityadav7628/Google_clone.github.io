@@ -1,0 +1,395 @@
+* {
+    margin: 0;
+    padding: 0%;
+  }
+  
+  .navbar {
+    width: 100%;
+    height: 10vw;
+    display: flex;
+    margin-top: 2vw;
+  }
+  .navbar #gmail {
+    text-decoration: none;
+    color: #fff;
+    margin-left: 85%;
+  }
+  .navbar #images {
+    text-decoration: none;
+    color: #fff;
+    margin-left: 1%;
+  }
+  .navbar img {
+    height: 2vw;
+    width: 2%;
+    margin-left: 2%;
+    border-radius: 0px;
+    margin-top: -0.2vw;
+  }
+  .content {
+    text-align: center;
+    display: flex;
+    top: 25%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    font-size: 5vw;
+  }
+  #heading-e {
+    transform: rotate(-20deg);
+  }
+  .search-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 6vw;
+  }
+  
+  .search-input {
+    width: 500px;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 20px 0 0 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    outline: none;
+  }
+  
+  .search-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #4285f4;
+    color: white;
+    border-radius: 0 20px 20px 0;
+    cursor: pointer;
+  }
+  
+  /* Optional: Media query for responsiveness */
+  @media (max-width: 600px) {
+    .search-container {
+      flex-direction: column;
+    }
+    .search-input {
+      width: 100%;
+      border-radius: 20px;
+    }
+    .search-button {
+      border-radius: 20px;
+      margin-top: 10px;
+    }
+  }
+  
+  .maincontnet{
+    /* top: 50%; */
+    margin-left: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    justify-content: space-around;
+    margin-top: 2vw;
+    /* background-color: #4285f4; */
+    width: 50%;
+    height: 20vw;
+    margin-left: 29.5%;
+  }
+  .items button{
+    justify-content: space-evenly;
+    justify-content: space-around;
+    margin-top: 1.5vw;
+    margin-left: 1vw; 
+    margin-right: 1vw; 
+    
+  }
+  .items #chatgpt:hover{
+    background-color: aqua;
+    color: black;
+    transform: scale(1.2);
+  }
+  .items #Whatsaap:hover{
+    background-color: aqua;
+    color: black;
+    transform: scale(1.2);
+  }
+  .items #Facebook:hover{
+    background-color: aqua;
+    color: black;
+    transform: scale(1.2);
+  }
+  .items #Linkdein:hover{
+    background-color: aqua;
+    color: black;
+    transform: scale(1.2);
+  }
+  .items #Github:hover{
+    background-color: aqua;
+    color: black;
+    transform: scale(1.2);
+  }
+  .items #Instagram:hover{
+    background-color: aqua;
+    color: black;
+    transform: scale(1.2);
+  }
+  .items #Youtube:hover{
+    background-color: aqua;
+    color: black;
+    transform: scale(1.2);
+  }
+  .items #Google:hover{
+    background-color: aqua;
+    color: black;
+    transform: scale(1.2);
+  }
+  .items #twitter:hover{
+    background-color: aqua;
+    color: black;
+    transform: scale(1.2);
+  }
+  .items #telegram:hover{
+    background-color: aqua;
+    color: black;
+    transform: scale(1.2);
+  }
+  .items #amazon:hover{
+    background-color: aqua;
+    color: black;
+    transform: scale(1.2);
+  }
+  .items #wikipedia:hover{
+    background-color: aqua;
+    color: black;
+    transform: scale(1.2);
+  }
+  .items #chatgpt {
+    font-size: 1.2vw;
+    background-color: rgb(54, 52, 52);
+    /* background-image: linear-gradient(to right,skyblue,rgb(24, 96, 145)); */
+    color: white;
+    text-align: center;
+    width: 17vh;
+    /* padding: 5%; */
+    height: 12vh;
+    border-radius: 8px;
+  
+  }
+  
+  #chatgpt img {
+    height: 6vh;
+    width: 35%;
+    margin-left: 34%;
+  }
+  
+  .items #Whatsaap {
+    font-size: 1.2vw;
+  
+    background-color: rgb(54, 52, 52);
+    /* background-image: linear-gradient(to right,skyblue,rgb(24, 96, 145)); */
+    color: white;
+    text-align: center;
+    width: 17vh;
+    height: 12vh;
+    border-radius: 8px;
+    /* padding: 5%; */
+    /* margin-left: 20%; */
+    /* margin: 10% ,30%; */
+  }
+  
+  #Whatsaap img {
+    height: 6vh;
+    width: 35%;
+    border-radius: 8px;
+    margin-left: 34%;
+  }
+  
+  .items #Facebook {
+    font-size: 1.2vw;
+    background-color: rgb(54, 52, 52);
+    /* background-image: linear-gradient(to right,skyblue,rgb(24, 96, 145)); */
+    color: white;
+    text-align: center;
+    width: 17vh;
+    height: 12vh;
+    /* font-size: 2vw; */
+    border-radius: 8px;
+  }
+  
+  #Facebook img {
+    height: 6vh;
+    width: 35%;
+    margin-left: 34%;
+  
+  }
+  
+  .items #Linkdein {
+    font-size: 1.2vw;
+    background-color: rgb(54, 52, 52);
+    /* background-image: linear-gradient(to right,skyblue,rgb(24, 96, 145)); */
+    color: white;
+    text-align: center;
+    width: 17vh;
+    height: 12vh;
+    border-radius: 8px;
+  }
+  
+  #Linkdein img {
+    height: 6vh;
+    width: 35%;
+    margin-left: 34%;
+  
+  }
+  
+  .items #Github {
+    font-size: 1.2vw;
+    background-color: rgb(54, 52, 52);
+    /* background-image: linear-gradient(to right,skyblue,rgb(24, 96, 145)); */
+    color: white;
+    text-align: center;
+    width: 17vh;
+    height: 12vh;
+    border-radius: 8px;
+  
+  }
+  
+  #Github img {
+    height: 6vh;
+    width: 35%;
+    margin-left: 34%;
+  }
+  
+  .items #Instagram {
+    font-size: 1.2vw;
+  
+    background-color: rgb(54, 52, 52);
+    /* background-image: linear-gradient(to right,skyblue,rgb(24, 96, 145)); */
+    color: white;
+    text-align: center;
+    width: 17vh;
+    height: 12vh;
+    border-radius: 8px;
+  
+  }
+  
+  #Instagram img {
+    height: 6vh;
+    width: 35%;
+    margin-left: 34%;
+  }
+  
+  .items #Youtube {
+    font-size: 1.2vw;
+    background-color: rgb(54, 52, 52);
+    /* background-image: linear-gradient(to right,skyblue,rgb(24, 96, 145)); */
+    color: white;
+    text-align: center;
+    width: 17vh;
+    height: 12vh;
+    border-radius: 8px;
+  }
+  
+  #Youtube img {
+    height: 6vh;
+    width: 35%;
+    margin-left: 34%;
+  }
+  
+  .items #Google {
+    font-size: 1.2vw;
+    background-color: rgb(54, 52, 52);
+    /* background-image: linear-gradient(to right,skyblue,rgb(24, 96, 145)); */
+  
+    color: white;
+    text-align: center;
+    width: 17vh;
+    height: 12vh;
+    border-radius: 8px;
+  
+  }
+  
+  #Google img {
+    height: 6vh;
+    width: 35%;
+    margin-left: 34%;
+    border-radius:28px;
+  
+  }
+  
+  .items #twitter {
+    font-size: 1.2vw;
+    background-color: rgb(54, 52, 52);
+    /* background-image: linear-gradient(to right,skyblue,rgb(24, 96, 145)); */
+    color: white;
+    text-align: center;
+    width: 17vh;
+    height: 12vh;
+    border-radius: 8px;
+  }
+  
+  #twitter img {
+    height: 6vh;
+    width: 35%;
+    margin-left: 34%;
+    border-radius: 8px;
+  
+  }
+  
+  .items #telegram {
+    font-size: 1.2vw;
+    background-color: rgb(54, 52, 52);
+    /* background-image: linear-gradient(to right,skyblue,rgb(24, 96, 145)); */
+  
+    color: white;
+    text-align: center;
+    width: 17vh;
+    height: 12vh;
+    border-radius: 8px;
+  }
+  
+  #telegram img {
+    height: 6vh;
+    width: 35%;
+    margin-left: 34%;
+    border-radius: 8px;
+  
+  }
+  
+  .items #wikipedia {
+    font-size: 1.2vw;
+    background-color: rgb(54, 52, 52);
+    /* background-image: linear-gradient(to right,skyblue,rgb(24, 96, 145)); */
+  
+    color: white;
+    text-align: center;
+    width: 17vh;
+    height: 12vh;
+    border-radius: 8px;
+  }
+  
+  #wikipedia img {
+    height: 6vh;
+    width: 35%;
+    margin-left: 34%;
+    border-radius: 8px;
+  
+  }
+  
+  .items #amazon {
+    font-size: 1.2vw;
+    background-color: rgb(54, 52, 52);
+    /* background-image: linear-gradient(to right,skyblue,rgb(24, 96, 145)); */
+    color: white;
+    text-align: center;
+    width: 17vh;
+    height: 12vh;
+    border-radius: 8px;
+  }
+  
+  #amazon img {
+    height: 6vh;
+    width: 35%;
+    margin-left: 34%;
+    border-radius: 8px;
+  
+  }
+  
